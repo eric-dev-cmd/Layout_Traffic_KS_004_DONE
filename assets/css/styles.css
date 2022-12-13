@@ -199,6 +199,10 @@ ul {
   font-size: 20px;
 }
 
+.fs-18 {
+  font-size: 17px;
+}
+
 .fs-16 {
   font-size: 16px;
 }
@@ -211,6 +215,14 @@ a {
   position: relative;
   top: -2px;
   left: -5px;
+}
+
+.table-hover > tbody > tr:hover {
+  background: #e9d7de;
+}
+
+.display-cell-mang {
+  display: none;
 }
 
 .header {
@@ -404,6 +416,9 @@ nav .main-menu li a:hover {
 
 .box-content ul {
   padding-left: 0px;
+}
+.box-content ul li:nth-child(odd) {
+  background-color: #ebeff3;
 }
 .box-content ul li {
   list-style: none;
@@ -622,6 +637,18 @@ ul {
 
 /* Portrait */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  .p-0-mb {
+    padding: 0 !important;
+  }
+  .display-cell-mang {
+    display: block;
+  }
+  .box-content ul {
+    padding-left: 0px;
+  }
+  .box-content ul li {
+    background-color: #fff !important;
+  }
   .box-menu-sidebar ul li:nth-child(even) {
     padding-left: 6px;
   }
@@ -757,6 +784,18 @@ ul {
 }
 /* Portrait and Landscape */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb {
+    padding: 0 !important;
+  }
+  .display-cell-mang {
+    display: block;
+  }
+  .box-content ul {
+    padding-left: 0px;
+  }
+  .box-content ul li {
+    background-color: #fff !important;
+  }
   .menu-mobile {
     display: none;
   }
@@ -864,6 +903,18 @@ ul {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb {
+    padding: 0 !important;
+  }
+  .display-cell-mang {
+    display: block;
+  }
+  .box-content ul {
+    padding-left: 0px;
+  }
+  .box-content ul li {
+    background-color: #fff !important;
+  }
   .menu-mobile {
     display: none;
   }
@@ -900,6 +951,18 @@ ul {
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1399px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb {
+    padding: 0 !important;
+  }
+  .display-cell-mang {
+    display: block;
+  }
+  .box-content ul {
+    padding-left: 0px;
+  }
+  .box-content ul li {
+    background-color: #fff !important;
+  }
   .menu-mobile {
     display: none;
   }
@@ -930,6 +993,18 @@ ul {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb {
+    padding: 0 !important;
+  }
+  .display-cell-mang {
+    display: block;
+  }
+  .box-content ul {
+    padding-left: 0px;
+  }
+  .box-content ul li {
+    background-color: #fff !important;
+  }
   #table-sim {
     margin-top: 46px;
   }

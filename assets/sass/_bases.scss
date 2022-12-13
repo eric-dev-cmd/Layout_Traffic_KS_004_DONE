@@ -153,6 +153,9 @@ ul{
 .fs-20{
   font-size: 20px;
 }
+.fs-18{
+  font-size: 17px;
+}
 .fs-16{
   font-size: 16px;
 }
@@ -163,4 +166,13 @@ a{
   position: relative;
   top: -2px;
   left: -5px;
+}
+// .table-striped > tbody > tr:nth-of-type(2n+1){
+//   background: #e9d7de;
+// }
+.table-hover>tbody>tr:hover{
+  background: #e9d7de;
+}
+.display-cell-mang{
+  display: none;
 }

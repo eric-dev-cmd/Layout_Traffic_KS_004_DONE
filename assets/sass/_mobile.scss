@@ -3,6 +3,20 @@
 // (min-width: 320px) and (max-width: 480px)
 @media only screen and (min-width: 320px) and (max-width: 480px) //   and (-webkit-min-device-pixel-ratio: 2)
   {
+  .p-0-mb{
+    padding: 0 !important;
+  }
+  .display-cell-mang{
+    display: block ;
+  }
+  .box-content{
+    & ul{
+        padding-left: 0px;
+        & li{
+            background-color: #fff !important;
+        }
+    }
+  }
   .box-menu-sidebar{
     // padding: 0 16px 0 16px;
     & ul li:nth-child(even){
@@ -192,6 +206,20 @@
 // (min-width: 768px) and (max-width: 1024px)
 /* Portrait and Landscape */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb{
+    padding: 0 !important;
+  }
+  .display-cell-mang{
+    display: block ;
+  }
+  .box-content{
+    & ul{
+        padding-left: 0px;
+        & li{
+            background-color: #fff !important;
+        }
+    }
+  }
   .menu-mobile{
     display: none;
   }
@@ -338,6 +366,20 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb{
+    padding: 0 !important;
+  }
+  .display-cell-mang{
+    display: block ;
+  }
+  .box-content{
+    & ul{
+        padding-left: 0px;
+        & li{
+            background-color: #fff !important;
+        }
+    }
+  }
   .menu-mobile{
     display: none;
   }
@@ -382,6 +424,20 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1399px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb{
+    padding: 0 !important;
+  }
+  .display-cell-mang{
+    display: block ;
+  }
+  .box-content{
+    & ul{
+        padding-left: 0px;
+        & li{
+            background-color: #fff !important;
+        }
+    }
+  }
   .menu-mobile{
     display: none;
   }
@@ -416,6 +472,20 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .p-0-mb{
+    padding: 0 !important;
+  }
+  .display-cell-mang{
+    display: block ;
+  }
+  .box-content{
+    & ul{
+        padding-left: 0px;
+        & li{
+            background-color: #fff !important;
+        }
+    }
+  }
   #table-sim{
     margin-top: 46px;
   }
